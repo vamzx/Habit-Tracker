@@ -1,0 +1,10 @@
+^C:\USERS\VAMZX\DESKTOP\HABIT TRACKER\HABIT_TRACKER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/vamzx/Desktop/Habit tracker/habit_tracker/windows" "-BC:/Users/vamzx/Desktop/Habit tracker/habit_tracker/build/windows/x64" --check-stamp-file "C:/Users/vamzx/Desktop/Habit tracker/habit_tracker/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

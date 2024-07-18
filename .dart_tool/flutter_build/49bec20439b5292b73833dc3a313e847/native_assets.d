@@ -1,0 +1,1 @@
+ C:\\Users\\vamzx\\Desktop\\Habit\ tracker\\habit_tracker\\.dart_tool\\flutter_build\\49bec20439b5292b73833dc3a313e847\\native_assets.yaml: 
